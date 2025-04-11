@@ -53,7 +53,7 @@ const Quiz: React.FC = () => {
         ...prevState,
         score: newScore,
         currentQuestionIndex: nextQuestionIndex,
-        selectedAnswer: null, // reset for the next question
+        selectedAnswer: null,
       };
     });
   };
